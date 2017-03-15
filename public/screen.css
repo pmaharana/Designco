@@ -2,7 +2,74 @@ html {
   text-size-adjust: 100%;
 }
 
+header {
+  background-color: gray;
+  font-size: 24px;
+  border-top: 5px solid red;
+  
+    }
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.logo {
+  flex:2;
+    }
+.navigation {
+    text-decoration: none;
+    flex: 7;
+    display:flex;
+    justify-content: space-around;
+    }
+.search {
+  flex:2;
+    }
+.picmaster {
+    padding-left:300px;
+    display: flex;
+    flex-direction: column;
+    height:600px;
+    width:800px;
+    align-content: center;
+    }
+.vegeta {
+    display:flex;
+    justify-content: center;
+}
+
+
+li {
+    list-style-type: none;
+}
+  
+.textmaster {
+    display:flex;
+    /*flex-flow: row wrap;
+    justify-content: space-between;
+    flex-direction: row;*/
+    font-size: 80%;
+    margin: 0 5em 0 5em;
+      }
+  .table1 {
+      flex: 1;
+       }
+
+ .table2 p {
+   column-count: 3;
+     }
+  .table2 {
+      flex: 3;
+    }
+
 body {
+  text-align: center;
   margin: 0;
   font: 16px / 1 sans-serif;
 }
+  
+  
+
+    
+
+  
